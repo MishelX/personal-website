@@ -1,2 +1,11 @@
-// Функция для добавления сообщения в чат
-//function addMessage(text, type) {
+const body = document.body;
+
+document.addEventListener('DOMContentLoaded', () => {
+    body.classList.add('hidden');
+});
+
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        body.classList.remove('hidden');
+    }, 1);
+});

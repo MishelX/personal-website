@@ -1,0 +1,78 @@
+/*под телефоны и всякую ерунду*/
+@media (max-width: 992px) {
+    .feature {
+        flex: 0 0 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .btn-primary {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 90%;
+    }
+    
+    .two-column {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .footer-links {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 539px) {
+    .footer-links {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
